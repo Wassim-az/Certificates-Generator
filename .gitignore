@@ -1,0 +1,28 @@
+# Secrets et configuration locale
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+
+# Dépendances et sorties compilées
+/api/vendor/
+/my-project/node_modules/
+/my-project/build/
+/api/node_modules/
+/api/public/build/
+/api/public/hot
+
+# Laravel: caches, logs et clés locales
+/api/bootstrap/cache/*.php
+/api/storage/*.key
+/api/storage/logs/*
+/api/storage/framework/cache/data/*
+/api/storage/framework/sessions/*
+/api/storage/framework/views/*
+/api/.phpunit.cache/
+
+# Outils et fichiers locaux
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
